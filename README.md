@@ -1,2 +1,8 @@
 # Welcome to the repository of the StevenSYS Homepage!
-![Screenshot](/Images/Screenshot.png)
+Light Mode:
+
+![Light Mode Screenshot](/Images/Screenshot.png)
+
+Dark Mode:
+
+![Dark Mode Screenshot](/Images/ScreenshotDark.png)
