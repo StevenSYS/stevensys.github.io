@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>StevenSYS - Homepage</title>
+	<link rel="icon" type="image/x-icon" href="Images/favicon.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+	<div class="center">
+		<img src="Images/Logo2x.png" class="invertdark">
+		<p>
+			<a href="https://stevensys.github.io/von">Valid or Not?</a>
+			 - is a website I made for fun!
+		</p>
+		<p>
+			<a href="links.html">Some links</a>
+			 - to websites I like.
+		</p>
+		<p>
+			<a href="what.html">What do we do at StevenSYS?</a>
+		</p>
+		<p class="small">Copyright &#169; StevenSYS 2023</p>
+	</div>
+
+	<div class="moveable">
+		<img src="Images/Objects/SYSDLL.png" class="sysdll" style="display: none;" draggable="false"></img>
+		<img src="Images/Objects/Pumpkin.png" class="pumpkin" style="display: none;" draggable="false"></img>
+		<img src="Images/Objects/pumkan't.png" class="pumkant" style="display: none;" draggable="false"></img>
+		<img src="Images/Objects/ChristmasTree.png" class="tree" style="display: none;" draggable="false"></img>
+		<img src="Images/Objects/ChristmasPresent.png" class="present" style="display: none;" draggable="false"></img>
+		<img src="Images/Objects/SantaHat.png" class="santahat" style="display: none;" draggable="false"></img>
+		<img src="Images/Objects/CandyCane.png" class="candycane" style="display: none;" draggable="false"></img>
+	</div>
+
+	<div class="contextmenu">
+		<div class="ctext">
+			<a class="hover" href="javascript:void(0)" onmousedown="window.open(rcHref);">Open Link in New Tab</a>
+			<hr>
+		</div>
+		<div class="image">
+			<a class="hover" href="javascript:void(0)" onmousedown="window.open(rcSrc);">Open Image in New Tab</a>
+			<hr>
+		</div>
+		<div class="text">
+			<a class="hover" href="javascript:void(0)" onmousedown="execCommand('copy');">Copy</a>
+			<hr>
+		</div>
+		<a class="hover" href="javascript:void(0)" onmousedown="history.back();">Backwards</a>
+		<a class="hover" href="javascript:void(0)" onmousedown="history.forward();">Forwards</a>
+		<a class="hover" href="javascript:void(0)" onmousedown="location.reload();">Reload</a>
+		<hr>
+		<a class="hover" href="javascript:void(0)" onmousedown="execCommand('selectall');">Select All</a>
+		<hr>
+		<a class="hover" href="javascript:void(0)" onmousedown="darkmode();">Dark Mode</a>
+		<hr>
+		<div class="christmas"> 
+			<a class="hover" href="javascript:void(0)" onmousedown="moveable('.santahat');">Santa Hat</a>
+			<a class="hover" href="javascript:void(0)" onmousedown="moveable('.candycane');">Candy Cane</a>
+			<a class="hover" href="javascript:void(0)" onmousedown="moveable('.present');">Christmas Present</a>
+			<a class="hover" href="javascript:void(0)" onmousedown="moveable('.tree');">Christmas Tree</a>
+		</div>
+		<div class="halloween">
+			<a class="hover" href="javascript:void(0)" onmousedown="moveable('.pumpkin');">Pumpkin</a>
+			<a class="hover" href="javascript:void(0)" onmousedown="moveable('.pumkant');">pumkan't</a>
+		</div>
+		<a class="hover" href="javascript:void(0)" onmousedown="moveable('.sysdll');">SYSDLL</a>
+	</div>
+
+	<script src="contextmenu.js"></script>
+</body>
+</html>
