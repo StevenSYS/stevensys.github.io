@@ -22,14 +22,13 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
   }
-}
-
-.dark {
-  background-color: #000;
-  color: #fff;
-  .contextmenu {background-color: #404040;}
-  .invertdark {filter: invert();}
-  a {color: #0f0;}
+  .dark {
+    background-color: #000;
+    color: #fff;
+    .contextmenu {background-color: #404040;}
+    .invertdark {filter: invert();}
+    a {color: #0f0;}
+  }
 }
 
 .contextmenu {
