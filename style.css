@@ -1,3 +1,10 @@
+.contextmenu a:hover {background-color: #004080;}
+.dark .contextmenu {background-color: #404040;}
+.dark .invertdark {filter: invert();}
+.dark a {color: #0f0;}
+.moveable {position: absolute;}
+.small {font-size: 18px;}
+
 body {
   background-color: #fff;
   color: #000;
@@ -22,13 +29,11 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
   }
-  .dark {
-    background-color: #000;
-    color: #fff;
-    .contextmenu {background-color: #404040;}
-    .invertdark {filter: invert();}
-    a {color: #0f0;}
-  }
+}
+
+.dark {
+  background-color: #000;
+  color: #fff;
 }
 
 .contextmenu {
@@ -54,7 +59,3 @@ body {
   padding: 2.5px;
   text-decoration: none;
 }
-
-.contextmenu .hover:hover {background-color: #004080;}
-.moveable {position: absolute;}
-.small {font-size: 18px;}
