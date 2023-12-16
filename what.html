@@ -1,65 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>StevenSYS - What do we do at StevenSYS?</title>
-	<link rel="icon" type="image/x-icon" href="/Images/favicon.png">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
-</head>
-<link rel="stylesheet" href="/style.css">
-<body>
-	<div class="center">
-		<a href="/"><img src="/Images/Logo2x.png" href="/secret" class="invertdark"></a>
-		<h3>What do we do at StevenSYS?</h3>
-		<p>Nothing!</p>
-		<p>Because StevenSYS isn't a real company.</p>
-		<p>Even the copyright at the bottom of the website is fake.</p>
-		<p class="small">Copyright &#169; StevenSYS <script>if (new Date().getFullYear() > 2023) {document.write("2023-")}; document.write(new Date().getFullYear());</script></p>
-	</div>
+	<head>
+		<title>StevenSYS - What do we do at StevenSYS?</title>
+		<link rel="icon" type="image/x-icon" href="/Images/favicon.png">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+	</head>
+	<link rel="stylesheet" href="/style.css">
+	<body>
+		<div class="center">
+			<a href="/"><img src="/Images/Logo2x.png" href="/secret" class="invertdark"></a>
+			<h3>What do we do at StevenSYS?</h3>
+			<p>Nothing!</p>
+			<p>Because StevenSYS isn't a real company.</p>
+			<p>Even the copyright at the bottom of the website is fake.</p>
+			<p class="small">Copyright &#169; StevenSYS <script>if (new Date().getFullYear() > 2023) {document.write("2023-")}; document.write(new Date().getFullYear());</script></p>
+		</div>
 
-	<div class="moveable">
-		<img src="/Images/Objects/SYSDLL.png" class="sysdll" style="display: none;" draggable="false"></img>
-		<img src="/Images/Objects/Pumpkin.png" class="pumpkin" style="display: none;" draggable="false"></img>
-		<img src="/Images/Objects/pumkan't.png" class="pumkant" style="display: none;" draggable="false"></img>
-		<img src="/Images/Objects/ChristmasTree.png" class="tree" style="display: none;" draggable="false"></img>
-		<img src="/Images/Objects/ChristmasPresent.png" class="present" style="display: none;" draggable="false"></img>
-		<img src="/Images/Objects/SantaHat.png" class="santahat" style="display: none;" draggable="false"></img>
-		<img src="/Images/Objects/CandyCane.png" class="candycane" style="display: none;" draggable="false"></img>
-	</div>
-	
-	<div class="contextmenu">
-		<div class="ctext">
-			<a href="javascript:void(0)" onmousedown="window.open(rcHref);">Open Link in New Tab</a>
+		<div class="moveable">
+			<img src="/Images/Objects/SYSDLL.png" class="sysdll" style="display: none;" draggable="false"></img>
+			<img src="/Images/Objects/Pumpkin.png" class="pumpkin" style="display: none;" draggable="false"></img>
+			<img src="/Images/Objects/pumkan't.png" class="pumkant" style="display: none;" draggable="false"></img>
+			<img src="/Images/Objects/ChristmasTree.png" class="tree" style="display: none;" draggable="false"></img>
+			<img src="/Images/Objects/ChristmasPresent.png" class="present" style="display: none;" draggable="false"></img>
+			<img src="/Images/Objects/SantaHat.png" class="santahat" style="display: none;" draggable="false"></img>
+			<img src="/Images/Objects/CandyCane.png" class="candycane" style="display: none;" draggable="false"></img>
+		</div>
+		
+		<div class="contextmenu">
+			<div class="ctext">
+				<a href="javascript:void(0)" onmousedown="window.open(rcHref);">Open Link in New Tab</a>
+				<hr>
+			</div>
+			<div class="image">
+				<a href="javascript:void(0)" onmousedown="window.open(rcSrc);">Open Image in New Tab</a>
+				<hr>
+			</div>
+			<div class="text">
+				<a href="javascript:void(0)" onmousedown="execCommand('copy');">Copy</a>
+				<hr>
+			</div>
+			<a href="javascript:void(0)" onmousedown="history.back();">Backwards</a>
+			<a href="javascript:void(0)" onmousedown="history.forward();">Forwards</a>
+			<a href="javascript:void(0)" onmousedown="location.reload();">Reload</a>
 			<hr>
-		</div>
-		<div class="image">
-			<a href="javascript:void(0)" onmousedown="window.open(rcSrc);">Open Image in New Tab</a>
+			<a href="javascript:void(0)" onmousedown="execCommand('selectall');">Select All</a>
 			<hr>
-		</div>
-		<div class="text">
-			<a href="javascript:void(0)" onmousedown="execCommand('copy');">Copy</a>
+			<a class="hover darkmode" href="javascript:void(0)" onmousedown="darkmode();"></a>
 			<hr>
+			<div class="christmas"> 
+				<a href="javascript:void(0)" onmousedown="moveable('.santahat');">Santa Hat</a>
+				<a href="javascript:void(0)" onmousedown="moveable('.candycane');">Candy Cane</a>
+				<a href="javascript:void(0)" onmousedown="moveable('.present');">Christmas Present</a>
+				<a href="javascript:void(0)" onmousedown="moveable('.tree');">Christmas Tree</a>
+			</div>
+			<div class="halloween">
+				<a href="javascript:void(0)" onmousedown="moveable('.pumpkin');">Pumpkin</a>
+				<a href="javascript:void(0)" onmousedown="moveable('.pumkant');">pumkan't</a>
+			</div>
+			<a href="javascript:void(0)" onmousedown="moveable('.sysdll');">SYSDLL</a>
 		</div>
-		<a href="javascript:void(0)" onmousedown="history.back();">Backwards</a>
-		<a href="javascript:void(0)" onmousedown="history.forward();">Forwards</a>
-		<a href="javascript:void(0)" onmousedown="location.reload();">Reload</a>
-		<hr>
-		<a href="javascript:void(0)" onmousedown="execCommand('selectall');">Select All</a>
-		<hr>
-		<a class="hover darkmode" href="javascript:void(0)" onmousedown="darkmode();"></a>
-		<hr>
-		<div class="christmas"> 
-			<a href="javascript:void(0)" onmousedown="moveable('.santahat');">Santa Hat</a>
-			<a href="javascript:void(0)" onmousedown="moveable('.candycane');">Candy Cane</a>
-			<a href="javascript:void(0)" onmousedown="moveable('.present');">Christmas Present</a>
-			<a href="javascript:void(0)" onmousedown="moveable('.tree');">Christmas Tree</a>
-		</div>
-		<div class="halloween">
-			<a href="javascript:void(0)" onmousedown="moveable('.pumpkin');">Pumpkin</a>
-			<a href="javascript:void(0)" onmousedown="moveable('.pumkant');">pumkan't</a>
-		</div>
-		<a href="javascript:void(0)" onmousedown="moveable('.sysdll');">SYSDLL</a>
-	</div>
-	<script src="/contextmenu.js"></script>
-</body>
+		<script src="/contextmenu.js"></script>
+	</body>
 </html>
