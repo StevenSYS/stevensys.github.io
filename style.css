@@ -1,6 +1,5 @@
 .contextmenu a:hover {background-color: #004080;}
 .dark .contextmenu {background-color: #404040;}
-.dark .invertdark {filter: invert();}
 .dark a {color: #0f0;}
 .moveable {position: absolute;}
 .small {font-size: 18px;}
