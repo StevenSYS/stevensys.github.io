@@ -7,4 +7,4 @@ function password() {
     $(".pae").remove();
   } else {
     if (!$(".ipta").length) {$(".small").before("<p class=\"ipta\">Incorrect password. Please try again...</p>");};
-}};
+}}
