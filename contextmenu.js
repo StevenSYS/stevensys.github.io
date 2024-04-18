@@ -1,5 +1,9 @@
 var cmClosed = 1;
-if (localStorage.getItem("darkmode") == "enabled") {$("body").addClass("dark");} else {$("body").removeClass("dark");}
+if (localStorage.getItem("darkmode") == "enabled") {
+  $("body").addClass("dark");
+} else {
+  $("body").removeClass("dark");
+}
 
 addEventListener("contextmenu", (event) => {
   rcSrc = event.target.getAttribute("src");
@@ -7,12 +11,33 @@ addEventListener("contextmenu", (event) => {
   selectionType = window.getSelection();
   event.preventDefault();
   $(".contextmenu").css("display", "block");
-  if ($("body").hasClass("dark")) {$(".darkmode").html("Light Mode");} else {$(".darkmode").html("Dark Mode");}
-  if (selectionType.type == "Range") {$(".text").css("display", "block");} else {$(".text").css("display", "none");}
-  if (rcHref != null) {$(".ctext").css("display", "block");} else {$(".ctext").css("display", "none");}
-  if (event.target.nodeName == "IMG") {$(".image").css("display", "block");} else {$(".image").css("display", "none");}
-  if (new Date().getMonth() >= 10) {$(".christmas").css("display", "block");} else {$(".christmas").css("display", "none");}
-  if (new Date().getMonth() == 9) {$(".halloween").css("display", "block");} else {$(".halloween").css("display", "none");}
+  if ($("body").hasClass("dark")) {
+    $(".darkmode").html("Light Mode");
+  } else {
+    $(".darkmode").html("Dark Mode");
+  }
+  if (selectionType.type == "Range") {
+    $(".text").css("display", "block");} else {$(".text").css("display", "none");
+  }
+  if (rcHref != null) {
+    $(".ctext").css("display", "block");
+  } else {
+    $(".ctext").css("display", "none");
+  }
+  if (event.target.nodeName == "IMG") {
+    $(".image").css("display", "block");
+  } else {
+    $(".image").css("display", "none");}
+  if (new Date().getMonth() >= 10) {
+    $(".christmas").css("display", "block");
+  } else {
+    $(".christmas").css("display", "none");
+  }
+  if (new Date().getMonth() == 9) {
+    $(".halloween").css("display", "block");
+  } else {
+    $(".halloween").css("display", "none");
+  }
   $(".contextmenu").css("left", event.clientX+"px");
   $(".contextmenu").css("top", event.clientY+"px");
   $(".contextmenu").effect("slide", 200, cmClosed = 0);
