@@ -2,7 +2,7 @@ var cmClosed = 1;
 if (localStorage.getItem("darkmode") == "enabled") {
 	$("body").addClass("dark");
 } else {
-$("body").removeClass("dark");
+	$("body").removeClass("dark");
 }
 
 addEventListener("contextmenu", (event) => {
