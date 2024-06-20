@@ -16,6 +16,7 @@
 */
 
 var cmClosed = 1;
+
 if (localStorage.getItem("darkmode") == "enabled") {
 	$("body").addClass("dark");
 } else {
@@ -28,19 +29,25 @@ addEventListener("contextmenu", (event) => {
 	selectionType = window.getSelection();
 	event.preventDefault();
 	$(".contextmenu").css("display", "block");
+	
 	if ($("body").hasClass("dark")) {
 		$(".darkmode").html("Light Mode");
 	} else {
 		$(".darkmode").html("Dark Mode");
 	}
+	
 	if (selectionType.type == "Range") {
-		$(".text").css("display", "block");} else {$(".text").css("display", "none");
+		$(".text").css("display", "block");
+	} else {
+		$(".text").css("display", "none");
 	}
+	
 	if (rcHref != null) {
 		$(".ctext").css("display", "block");
 	} else {
 		$(".ctext").css("display", "none");
 	}
+	
 	if (event.target.nodeName == "IMG") {
 		$(".image").css("display", "block");
 	} else {
@@ -50,20 +57,22 @@ addEventListener("contextmenu", (event) => {
 	} else {
 		$(".christmas").css("display", "none");
 	}
+	
 	if (new Date().getMonth() == 9) {
 		$(".halloween").css("display", "block");
 	} else {
 		$(".halloween").css("display", "none");
 	}
-	$(".contextmenu").css("left", event.clientX+"px");
-	$(".contextmenu").css("top", event.clientY+"px");
+	
+	$(".contextmenu").css("left", event.clientX);
+	$(".contextmenu").css("top", event.clientY);
 	$(".contextmenu").effect("slide", 200, cmClosed = 0);
 })
 
 addEventListener("mousedown", (event) => {
 	if (event.button == 0 && $(".contextmenu").css("display") != "none" && cmClosed == 0) {
-			cmClosed = 1;
-			$(".contextmenu").effect("drop", 250, $(".contextmenu").css("display", "none"));
+		cmClosed = 1;
+		$(".contextmenu").effect("drop", 250, $(".contextmenu").css("display", "none"));
 }})
 
 function moveable(object) {
