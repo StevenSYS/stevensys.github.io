@@ -2,6 +2,6 @@ The StevenSYS Homepage is licensed under the Lesser General Public License versi
 	License File: `LICENSES/LICENSE`
 	License Website: https://www.gnu.org/licenses/lgpl-3.0.en.html
 
-This uses the jQuery library which is licensed under the MIT license.
+This uses the jQuery and jQuery UI libraries which are both licensed under the MIT license.
 	License File: `LICENSES/LICENSE-jQuery`
 	License Website: https://jquery.org/license/
