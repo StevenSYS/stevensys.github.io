@@ -8,3 +8,5 @@ Dark Mode:
 ![Dark Mode Screenshot](/Images/ScreenshotDark.png)
 
 ---
+
+#### View `LICENSE.txt` for License Information.
