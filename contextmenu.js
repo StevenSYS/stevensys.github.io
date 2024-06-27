@@ -17,7 +17,7 @@
 
 var cmClosed = 1;
 
-if (localStorage.getItem("darkmode") == "enabled") {
+if (localStorage.getItem("darkMode") == "enabled") {
 	$("body").addClass("dark");
 } else {
 	$("body").removeClass("dark");
