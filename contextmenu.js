@@ -88,8 +88,8 @@ function moveable(object) {
 function darkmode() {
 	if ($("body").hasClass("dark")) {
 		$("body").removeClass("dark");
-		localStorage.setItem("darkmode","disabled");
+		localStorage.setItem("darkMode","disabled");
 	} else {
 		$("body").addClass("dark");
-		localStorage.setItem("darkmode","enabled");
+		localStorage.setItem("darkMode","enabled");
 }}
