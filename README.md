@@ -1,2 +1,2 @@
 # Welcome to the repository of the StevenSYS Homepage!
-#### View `LICENSE.txt` for License Information.
+#### View `LICENSE.md` for License Information.
