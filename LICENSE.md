@@ -1,4 +1,4 @@
-# JSONpage
+# StevenSYS Homepage
 
 License File: `LICENSES/LICENSE`
 
@@ -14,10 +14,10 @@ License Website: https://jquery.org/license/
 
 License File: `LICENSES/LICENSE-crypto-js`
 
-GitHub Repo: `https://github.com/brix/crypto-js`
+GitHub Repo: https://github.com/brix/crypto-js
 
 # js-sha256
 
 License File: `LICENSES/LICENSE-js-sha256`
 
-GitHub Repo: `https://github.com/emn178/js-sha256`
+GitHub Repo: https://github.com/emn178/js-sha256
