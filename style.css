@@ -1,0 +1,33 @@
+body {
+	background-color: #200040;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 24px;
+	/* https://stackoverflow.com/a/14068216 */
+	image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+	image-rendering: -moz-crisp-edges;          /* Firefox                        */
+	image-rendering: -o-crisp-edges;            /* Opera                          */
+	image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+	image-rendering: pixelated;                 /* Universal support since 2021   */
+	image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+	-ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+}
+
+a {
+	color: #0080ff;
+	text-decoration: none;
+}
+
+a:hover {
+	filter: drop-shadow(0px 0px 5px #fff);
+}
+
+a:active {
+	filter: brightness(50%);
+}
+
+.source {
+	color: #80c0ff;
+}
