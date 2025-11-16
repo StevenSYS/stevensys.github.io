@@ -1,6 +1,6 @@
 body {
 	background-color: #200040;
-	color: #fff;
+	color: #FFF;
 	font-family: sans-serif;
 	font-size: 24px;
 	text-align: center;
@@ -16,12 +16,12 @@ body {
 }
 
 a {
-	color: #0080ff;
+	color: #0080FF;
 	text-decoration: none;
 }
 
 a:hover {
-	filter: drop-shadow(0px 0px 5px #fff);
+	filter: drop-shadow(0px 0px 5px #FFF);
 }
 
 a:active {
@@ -29,5 +29,5 @@ a:active {
 }
 
 .source {
-	color: #80c0ff;
+	color: #80C0FF;
 }
