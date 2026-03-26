@@ -73,7 +73,7 @@
 			print_r("<br>\n");
 			
 			if (isset($release["info"])) {
-				print_r("Info:<br>\n<div id=\"info\" class=\"border\">\n");
+				print_r("\t\t<div>Info:</div>\n\t\t<div id=\"info\" class=\"border\">\n");
 				
 				$i = 1;
 				foreach ($release["info"] as $line) {
@@ -84,12 +84,12 @@
 					$i++;
 				}
 				
-				print_r("</div>\n\t\t<br><br>\n\t\t");
+				print_r("\n\t\t</div>\n\t\t<br><br>\n");
 			}
 			
 			if (isset($release["links"])) {
 				foreach ($release["links"] as $link) {
-					print_r("<a href=\"" . $link["link"] . "\">" . $link["name"] . "</a><br>\n");
+					print_r("\t\t<a href=\"" . $link["link"] . "\">" . $link["name"] . "</a><br>\n");
 				}
 			}
 		?>
