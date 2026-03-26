@@ -10,7 +10,7 @@
 	</head>
 	<body>
 		<img src="images/logo2x.png" alt="Logo" class="border">
-		<br><br>
+		<br>
 		<div>
 			Pronounced: Eye-Sixty-Three-Forty<br>
 			<br>
