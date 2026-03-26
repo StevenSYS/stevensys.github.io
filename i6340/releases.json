@@ -1,0 +1,149 @@
+[
+	{
+		"cover": "thunderdream.png",
+		"name": "Thunderdream",
+		"date": "2024-04-02",
+		"type": "Album",
+		"page": "thunderdream.html",
+		"disableLink": false,
+		"trackList": [
+			"Entering",
+			"Thunderstorm",
+			"Reality Check",
+			"Lucid",
+			"Full Control",
+			"Moon BolLson",
+			"Dream Walker",
+			"Sleep Walking",
+			"Nightmare",
+			"Leaving"
+		],
+		"info": [
+			"This is the first album I made using the \"i6340\" name.",
+			"I started making it in mid-late January 2024 and finished it in April.",
+			"",
+			"I don't think this album is good but I'm putting it here so that it's archived."
+		],
+		"links": [
+			{
+				"name": "Download (FLAC) - Google Drive",
+				"link": "https://drive.google.com/file/d/11xSTdNSBWUUocI9LVlVT9v5LTLROWI8H/view"
+			}
+		]
+	},
+	{
+		"cover": "videos/dancingCube.png",
+		"name": "Dancing Cube",
+		"date": "2025-03-29",
+		"type": "Video",
+		"page": "dancingCube.html",
+		"disableLink": false,
+		"info": [ "I don't fully remember why I made this." ],
+		"links": [
+			{
+				"name": "Music Download (FLAC) - Google Drive",
+				"link": "https://drive.google.com/file/d/1WrN3GKLkE7B-OT7slScBoUFwcnjL7qWr/view"
+			},
+			{
+				"name": "Video Download (MP4) - Google Drive",
+				"link": "https://drive.google.com/file/d/1wfSL6g1gKyhBEPdudW0KWJCcPFXshYd9/view"
+			},
+			{
+				"name": "Video - YouTube",
+				"link": "https://www.youtube.com/watch?v=ceMqPhNv8a0"
+			}
+		]
+	},
+	{
+		"cover": "videos/isfish.png",
+		"name": "isfish",
+		"date": "2025-04-04",
+		"type": "Video",
+		"page": "isfish.html",
+		"disableLink": false,
+		"info": [
+			"I made this video because I drew a funny fish",
+			"and thought it could be turned into a video with music."
+		],
+		"links": [
+			{
+				"name": "Music Download (FLAC) - Google Drive",
+				"link": "https://drive.google.com/file/d/1-WIiD_zlXLTipmaz11bsLwOw54lAaL2r/view"
+			},
+			{
+				"name": "Video Download (MP4) - Google Drive",
+				"link": "https://drive.google.com/file/d/1ya94jtMLt0mHtUgS0iuS5TSWn5-TUG60/view"
+			},
+			{
+				"name": "Video - YouTube",
+				"link": "https://www.youtube.com/watch?v=S_bRu7ypDdg"
+			}
+		]
+	},
+	{
+		"cover": "videos/is3dfish.png",
+		"name": "is3dfish",
+		"date": "2025-04-04",
+		"type": "Video",
+		"page": "is3dfish.html",
+		"disableLink": false,
+		"links": [
+			{
+				"name": "Music Download (FLAC) - Google Drive",
+				"link": "https://drive.google.com/file/d/1DMg0hdaOoQ8h0MGUsA4omXKHci_OSbCs/view"
+			},
+			{
+				"name": "Video Download (MP4) - Google Drive",
+				"link": "https://drive.google.com/file/d/1_MgiPIVT9bYbcsAs05WaUkMt243iX206/view"
+			},
+			{
+				"name": "Video - YouTube",
+				"link": "https://www.youtube.com/watch?v=ymte_VjkRm0"
+			}
+		]
+	},
+	{
+		"cover": "videos/theBoss.png",
+		"name": "The Boss",
+		"date": "2025-04-08",
+		"type": "Video",
+		"page": "theBoss.html",
+		"disableLink": false,
+		"links": [
+			{
+				"name": "Music Download (FLAC) - Google Drive",
+				"link": "https://drive.google.com/file/d/1zzI8K3-vp6iVyB5f-fxcJfAufnVzAEdM/view"
+			},
+			{
+				"name": "Video Download (MP4) - Google Drive",
+				"link": "https://drive.google.com/file/d/1x3UdGFyD37PvYgIAOHKd88oM1t9sCcl0/view"
+			},
+			{
+				"name": "Video - YouTube",
+				"link": "https://www.youtube.com/watch?v=J1yuS3EiaXk"
+			}
+		]
+	},
+	{
+		"cover": "videos/ismusicfish.png",
+		"name": "ismusicfish",
+		"date": "2025-08-09",
+		"type": "Video",
+		"page": "ismusicfish.html",
+		"disableLink": false,
+		"links": [
+			{
+				"name": "Music Download (FLAC) - Google Drive",
+				"link": "https://drive.google.com/file/d/1qkI63sTFaj1Yz9FuerHbR0iGJsmLgHL0/view"
+			},
+			{
+				"name": "Video Download (MP4) - Google Drive",
+				"link": "https://drive.google.com/file/d/1-XJnjSjxof2CM7ooAeIHJZZHK3efS0MO/view"
+			},
+			{
+				"name": "Video - YouTube",
+				"link": "https://www.youtube.com/watch?v=Ls-3xGRBfKw"
+			}
+		]
+	}
+]
