@@ -52,8 +52,7 @@
 					$release["date"] .
 					"<br>\n" .
 					"\t\t\t\tType: " .
-					$release["type"] .
-					"\t\t\t"
+					$release["type"]
 				);
 				
 				print_r("\n\t\t\t</div>\n\t\t");
