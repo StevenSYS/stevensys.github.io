@@ -16,7 +16,7 @@
 			<br>
 			Music alias of <a href="../">StevenSYS</a>.<br>
 			<br>
-			Anything I make using the name "i6340" is<br>
+			Anything I make under the name "i6340" is<br>
 			licensed as <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> unless specified otherwise.
 		</div>
 		<br><?php
