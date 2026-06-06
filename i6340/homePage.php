@@ -18,8 +18,9 @@
 			<br>
 			Anything I make under the name "i6340" is<br>
 			licensed as <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> unless specified otherwise.
-		</div>
-		<br><?php
+		</div><br>
+		<div>Releases:</div>
+		<?php
 			$releasesRaw = file_get_contents("releases.json");
 			$releasesArray = json_decode($releasesRaw, true);
 			
@@ -65,11 +66,10 @@
 				
 				print_r("\n\t\t<br>");
 			}
-			print_r("\n");
-		?>
+		?><br>
 		<div>
-			My accounts:<br>
-			<a href="https://youtube.com/@i6340-music" style="color: #FF8080;">YouTube</a><br>
+			Accounts:<br>
+			<a href="https://youtube.com/@i6340-music" style="color: #FF8080;">YouTube</a>
 		</div>
 	</body>
 </html>
