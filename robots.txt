@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /images/
+Disallow: /i6340/images/
+Disallow: /i6340/*.html
+Disallow: /i6340/*.php
+Allow: /i6340/index.html
